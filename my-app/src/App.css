@@ -7,15 +7,6 @@
   --background-color: #f7f7f7;
 }
 
-.App {
-  text-align: center;
-  background-color: #f7f7f7;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -25,10 +16,14 @@
   }
 }
 
+.app {
+  text-align: center;
+}
+
 .color-test {
   color: #00bcd4;
 }
 
 .background {
-  background-color: #f7f7f7;
+  background-color: var(--background-color);
 }
