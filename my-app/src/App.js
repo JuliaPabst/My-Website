@@ -1,10 +1,11 @@
 import "./App.css";
+import Navigation from "./Navigation.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p class="color-test">Edit and save to reload.</p>
+        <Navigation />
       </header>
     </div>
   );
