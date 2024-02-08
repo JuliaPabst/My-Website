@@ -68,13 +68,13 @@ export default function About() {
                 <div>git & GitHub</div>
               </div>
             </div>
-            <div>
+            <div className="d-none d-lg-block d-xl-block">
               <h2>Sprachen</h2>
               <p>Deutsch: C2</p>
               <p>Englisch: C2</p>
               <p>Französisch: B1</p>
             </div>
-            <div>
+            <div className="d-none d-lg-block d-xl-block">
               <h2>Interessen</h2>
               <p>Singen in einer Band</p>
               <p>Laufen & Radfahren</p>
@@ -178,6 +178,18 @@ export default function About() {
                   <p>Recherche und Konzeption von TV-Beiträgen.</p>
                 </div>
               </div>
+            </div>
+            <div className="d-block d-lg-none">
+              <h2>Sprachen</h2>
+              <p>Deutsch: C2</p>
+              <p>Englisch: C2</p>
+              <p>Französisch: B1</p>
+            </div>
+            <div className="d-block d-lg-none">
+              <h2>Interessen</h2>
+              <p>Singen in einer Band</p>
+              <p>Laufen & Radfahren</p>
+              <p>Science Fiction (Bücher, Filme, Serien)</p>
             </div>
           </Col>
         </Row>
