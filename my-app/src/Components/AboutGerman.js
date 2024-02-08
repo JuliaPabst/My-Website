@@ -33,37 +33,37 @@ export default function AboutGerman() {
               <h2>Skills</h2>
               <div>
                 <div class="progress-bar">
-                  <div class="progress-fill"></div>
+                  <div class="progress-fill-80"></div>
                 </div>
                 <div>HTML & CSS</div>
               </div>
               <div>
                 <div class="progress-bar">
-                  <div class="progress-fill"></div>
+                  <div class="progress-fill-70"></div>
                 </div>
                 <div>JavaScript & MERN-Stack</div>
               </div>
               <div>
                 <div class="progress-bar">
-                  <div class="progress-fill"></div>
+                  <div class="progress-fill-60"></div>
                 </div>
                 <div>Swift</div>
               </div>
               <div>
                 <div class="progress-bar">
-                  <div class="progress-fill"></div>
+                  <div class="progress-fill-60"></div>
                 </div>
                 <div>C & PHP</div>
               </div>
               <div>
                 <div class="progress-bar">
-                  <div class="progress-fill"></div>
+                  <div class="progress-fill-60"></div>
                 </div>
                 <div>SQL</div>
               </div>
               <div>
                 <div class="progress-bar">
-                  <div class="progress-fill"></div>
+                  <div class="progress-fill-60"></div>
                 </div>
                 <div>git & GitHub</div>
               </div>
