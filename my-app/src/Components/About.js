@@ -25,6 +25,14 @@ export default function About() {
       <section>
         <h1>CV</h1>
         <div>
+          <h2>Skills</h2>
+          <div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+          </div>
+        </div>
+        <div>
           <h2>Ausbildung</h2>
           <div>
             <h3>BSC Informatik</h3>
@@ -123,11 +131,9 @@ export default function About() {
         </div>
         <div>
           <h2>Interessen</h2>
-          <ul>
-            <li>Singen in einer Band</li>
-            <li>Laufen & Radfahren</li>
-            <li>Science Fiction (Bücher, Filme, Serien)</li>
-          </ul>
+          <p>Singen in einer Band</p>
+          <p>Laufen & Radfahren</p>
+          <p>Science Fiction (Bücher, Filme, Serien)</p>
         </div>
       </section>
     </div>
