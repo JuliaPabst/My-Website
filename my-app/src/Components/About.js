@@ -5,6 +5,7 @@ export default function About() {
     <div>
       <section>
         <h1>Julia Pabst</h1>
+        <h2>Web & Mobile Development</h2>
         <img src="/square.jpg" alt="Julia Pabst" className="myImage"></img>
         <p>
           Hi, ich bin Jules! Diese Website soll zeigen, wer ich bin und was ich
