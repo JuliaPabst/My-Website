@@ -94,7 +94,11 @@ export default function AboutGerman() {
                 </p>
               </div>
               <div>
-                <h3>iOS & Swift - The Complete iOS App Development Bootcamp</h3>
+                <h3>
+                  <a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/">
+                    iOS & Swift - The Complete iOS App Development Bootcamp
+                  </a>
+                </h3>
                 <p>Udemy, Dr. Angela Yu</p>
                 <p>Seit Dezember 2023</p>
                 <p>
@@ -103,7 +107,11 @@ export default function AboutGerman() {
                 </p>
               </div>
               <div>
-                <h3>Diplom Web-Development</h3>
+                <h3>
+                  <a href="https://codecool.com/en/courses/front-end-development-course/">
+                    Diplom Web-Development
+                  </a>
+                </h3>
                 <p>Codecool</p>
                 <p>Dezember 2022 - Juni 2023</p>
                 <p>
@@ -112,7 +120,11 @@ export default function AboutGerman() {
                 </p>
               </div>
               <div>
-                <h3>Diplom Frontend-Development</h3>
+                <h3>
+                  <a href="https://www.shecodes.io/workshop-pro">
+                    Diplom Frontend-Development
+                  </a>
+                </h3>
                 <p>SheCodes</p>
                 <p>November 2022 - Mai 2023</p>
                 <p>
@@ -120,7 +132,11 @@ export default function AboutGerman() {
                 </p>
               </div>
               <div>
-                <h3>BA Journalismus und Medienmanagement</h3>
+                <h3>
+                  <a href="https://www.fh-wien.ac.at/studium/bachelor/journalismus-medienmanagement/?gad_source=1&gclid=CjwKCAiAlJKuBhAdEiwAnZb7laQSC6RCZWFV1Ure3a0nOXw5jr-twj5QbLDFxS_czIMmoMe0vNyXQhoCFEcQAvD_BwE">
+                    BA Journalismus und Medienmanagement
+                  </a>
+                </h3>
                 <p>FH Wien der WKW</p>
                 <p>Oktober 2017 - Juli 2021</p>
                 <p>
@@ -132,7 +148,11 @@ export default function AboutGerman() {
                 <p>Grundlagen des Contemporary Art Film makings.</p>
               </div>
               <div>
-                <h3>Diplom in Digitaler Fotografie und Bildbearbeitung</h3>
+                <h3>
+                  <a href="https://www.likakademie.com/lehrplan-dfo">
+                    Diplom in Digitaler Fotografie und Bildbearbeitung
+                  </a>
+                </h3>
                 <p>Lik Akademie für Foto und Design</p>
                 <p>September 2015 - Juli 2017</p>
                 <p>
