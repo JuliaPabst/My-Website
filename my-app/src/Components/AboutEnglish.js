@@ -94,7 +94,7 @@ export default function AboutGerman() {
                     BSC Computer Science
                   </a>
                 </h3>
-                <p>FH Technikum Wien</p>
+                <h4>FH Technikum Wien</h4>
                 <p>since September 2023</p>
                 <p>
                   Learning the programming languages C, PHP and the foundations
@@ -111,7 +111,7 @@ export default function AboutGerman() {
                     iOS & Swift - The Complete iOS App Development Bootcamp
                   </a>
                 </h3>
-                <p>Udemy, Dr. Angela Yu</p>
+                <h4>Udemy, Dr. Angela Yu</h4>
                 <p>since December 2023</p>
                 <p>
                   Learning the programming language Swift, usage of UIKit,
@@ -128,7 +128,7 @@ export default function AboutGerman() {
                     Diploma Web-Development
                   </a>
                 </h3>
-                <p>Codecool</p>
+                <h4>Codecool</h4>
                 <p>December 2022 - June 2023</p>
                 <p>
                   Learning the programming language JavaScript, usage of GitHub
@@ -145,7 +145,7 @@ export default function AboutGerman() {
                     Diploma Frontend-Development
                   </a>
                 </h3>
-                <p>SheCodes</p>
+                <h4>SheCodes</h4>
                 <p>November 2022 - May 2023</p>
                 <p>Learning HTML and CSS, usage of Networking and React.</p>
               </div>
@@ -159,14 +159,16 @@ export default function AboutGerman() {
                     BA Journalism und Media Management
                   </a>
                 </h3>
-                <p>FH Wien der WKW</p>
+                <h4>FH Wien der WKW</h4>
                 <p>October 2017 - July 2021</p>
                 <p>
                   Journalistic theories and moral foundations. Production of
                   multimedia content.
                 </p>
-                <p>Auslandssemester: Tampere University of Applied Sciences</p>
-                <p>Jänner 2020 - Mai 2020</p>
+                <h5>
+                  Exchange Semester: Tampere University of Applied Sciences
+                </h5>
+                <p>January 2020 - May 2020</p>
                 <p>Foundations of Contemporary Art Film Making.</p>
               </div>
               <div>
@@ -179,7 +181,7 @@ export default function AboutGerman() {
                     Diploma Digital Photography und Editing
                   </a>
                 </h3>
-                <p>Lik Akademie für Foto und Design</p>
+                <h4>Lik Akademie für Foto und Design</h4>
                 <p>September 2015 - July 2017</p>
                 <p>
                   Learning different kinds of photography (portrait, landscape,
@@ -196,7 +198,7 @@ export default function AboutGerman() {
                     A-Levels
                   </a>
                 </h3>
-                <p>BG/BRG Judenburg</p>
+                <h4>BG/BRG Judenburg</h4>
                 <p>September 2009 - July 2017</p>
                 <p>
                   A-Levels in English, French, Philosophy und Psychology und
@@ -208,8 +210,8 @@ export default function AboutGerman() {
               <h2>Career</h2>
               <div>
                 <h3>Freelance Journalist and Photographer</h3>
+                <h4>Die Presse, trend, Brutkasten, Kanal3</h4>
                 <p>September 2017 - November 2022</p>
-                <p>Die Presse, trend, Brutkasten, Kanal3</p>
                 <p>
                   Writing, photography, podcast production, Instagram Management
                   in the areas of business and technology journalism. Schreiben,
@@ -217,12 +219,12 @@ export default function AboutGerman() {
               </div>
               <div>
                 <h3>Co-Founder and Vice Editor in Chief</h3>
-                <p>July 2020 - June 2022</p>
-                <p>
+                <h4>
                   <a href="amrand.at" target="_blank" rel="noopener noreferrer">
                     amrand.at
                   </a>
-                </p>
+                </h4>
+                <p>July 2020 - June 2022</p>
                 <p>
                   Creation of a multimedia online magazine. Management of
                   editorial staff and production of multimedia content.

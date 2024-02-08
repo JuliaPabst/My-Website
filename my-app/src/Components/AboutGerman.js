@@ -94,7 +94,7 @@ export default function AboutGerman() {
                     BSC Informatik
                   </a>
                 </h3>
-                <p>FH Technikum Wien</p>
+                <h4>FH Technikum Wien</h4>
                 <p>Seit September 2023</p>
                 <p>
                   Erlernen der Programmiersprachen C und PHP. Grundlagen des
@@ -111,7 +111,7 @@ export default function AboutGerman() {
                     iOS & Swift - The Complete iOS App Development Bootcamp
                   </a>
                 </h3>
-                <p>Udemy, Dr. Angela Yu</p>
+                <h4>Udemy, Dr. Angela Yu</h4>
                 <p>Seit Dezember 2023</p>
                 <p>
                   Erlernen der Programmiersprache Swift. Anwendung von UIKit,
@@ -128,7 +128,7 @@ export default function AboutGerman() {
                     Diplom Web-Development
                   </a>
                 </h3>
-                <p>Codecool</p>
+                <h4>Codecool</h4>
                 <p>Dezember 2022 - Juni 2023</p>
                 <p>
                   Erlernen der Programmiersprache JavaScript. Anwendung von
@@ -145,7 +145,7 @@ export default function AboutGerman() {
                     Diplom Frontend-Development
                   </a>
                 </h3>
-                <p>SheCodes</p>
+                <h4>SheCodes</h4>
                 <p>November 2022 - Mai 2023</p>
                 <p>
                   Erlernen von HTML und CSS. Anwendung von Networking und React.
@@ -161,13 +161,15 @@ export default function AboutGerman() {
                     BA Journalismus und Medienmanagement
                   </a>
                 </h3>
-                <p>FH Wien der WKW</p>
+                <h4>FH Wien der WKW</h4>
                 <p>Oktober 2017 - Juli 2021</p>
                 <p>
                   Journalistische Theorien sowie moralische Grundlagen.
                   Erstellung von multimedialen Inhalten.
                 </p>
-                <p>Auslandssemester: Tampere University of Applied Sciences</p>
+                <h5>
+                  Auslandssemester: Tampere University of Applied Sciences
+                </h5>
                 <p>Jänner 2020 - Mai 2020</p>
                 <p>Grundlagen des Contemporary Art Film makings.</p>
               </div>
@@ -181,7 +183,7 @@ export default function AboutGerman() {
                     Diplom in Digitaler Fotografie und Bildbearbeitung
                   </a>
                 </h3>
-                <p>Lik Akademie für Foto und Design</p>
+                <h4>Lik Akademie für Foto und Design</h4>
                 <p>September 2015 - Juli 2017</p>
                 <p>
                   Erlernen der unterschiedlichen Arten von Fotografie
@@ -199,7 +201,7 @@ export default function AboutGerman() {
                     Matura
                   </a>
                 </h3>
-                <p>BG/BRG Judenburg</p>
+                <h4>BG/BRG Judenburg</h4>
                 <p>September 2009 - Juli 2017</p>
                 <p>
                   Matura in Englisch, Französisch, Philosophie und Psychologie
@@ -211,8 +213,8 @@ export default function AboutGerman() {
               <h2>Berufserfahrung</h2>
               <div>
                 <h3>Freie Journalistin und Fotografin</h3>
+                <h4>Die Presse, trend, Brutkasten, Kanal3</h4>
                 <p>September 2017 - November 2022</p>
-                <p>Die Presse, trend, Brutkasten, Kanal3</p>
                 <p>
                   Schreiben, Fotografie, Podcast Produktion, Instagram-Betreuung
                   im Bereich Wirtschafts- und Technologiejournalismus
@@ -220,12 +222,13 @@ export default function AboutGerman() {
               </div>
               <div>
                 <h3>Co-Founder und stellvertretende Chefredakteurin</h3>
-                <p>Juli 2020 - Juni 2022</p>
-                <p>
+
+                <h4>
                   <a href="amrand.at" target="_blank" rel="noopener noreferrer">
                     amrand.at
                   </a>
-                </p>
+                </h4>
+                <p>Juli 2020 - Juni 2022</p>
                 <p>
                   Konzeption und Aufbau eines multimedialen Onlinemagazins.
                   Redaktionsleitung und erstellen von multimedialem Content für
