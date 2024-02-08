@@ -30,6 +30,31 @@ export default function About() {
             <div class="progress-bar">
               <div class="progress-fill"></div>
             </div>
+            <div>HTML & CSS</div>
+          </div>
+          <div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <div>JavaScript & MERN-Stack</div>
+          </div>
+          <div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <div>Swift</div>
+          </div>
+          <div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <div>C & PHP</div>
+          </div>
+          <div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <div>git & GitHub</div>
           </div>
         </div>
         <div>
