@@ -14,7 +14,7 @@ export default function Navigation({ selectLanguage, language }) {
             <Nav.Link href="#home">Über mich</Nav.Link>
             <Nav.Link href="#link">Projekte</Nav.Link>
             <Navbar.Text>
-              {language == "German" ? (
+              {language === "German" ? (
                 <button onClick={selectLanguage}>English</button>
               ) : (
                 <button onClick={selectLanguage}>Deutsch</button>

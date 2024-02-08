@@ -85,7 +85,15 @@ export default function AboutGerman() {
             <div>
               <h2>Ausbildung</h2>
               <div>
-                <h3>BSC Informatik</h3>
+                <h3>
+                  <a
+                    href="https://www.technikum-wien.at/studienplan-bachelor-informatik-dual/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    BSC Informatik
+                  </a>
+                </h3>
                 <p>FH Technikum Wien</p>
                 <p>Seit September 2023</p>
                 <p>
@@ -95,7 +103,11 @@ export default function AboutGerman() {
               </div>
               <div>
                 <h3>
-                  <a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/">
+                  <a
+                    href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     iOS & Swift - The Complete iOS App Development Bootcamp
                   </a>
                 </h3>
@@ -108,7 +120,11 @@ export default function AboutGerman() {
               </div>
               <div>
                 <h3>
-                  <a href="https://codecool.com/en/courses/front-end-development-course/">
+                  <a
+                    href="https://codecool.com/en/courses/front-end-development-course/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Diplom Web-Development
                   </a>
                 </h3>
@@ -121,7 +137,11 @@ export default function AboutGerman() {
               </div>
               <div>
                 <h3>
-                  <a href="https://www.shecodes.io/workshop-pro">
+                  <a
+                    href="https://www.shecodes.io/workshop-pro"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Diplom Frontend-Development
                   </a>
                 </h3>
@@ -133,7 +153,11 @@ export default function AboutGerman() {
               </div>
               <div>
                 <h3>
-                  <a href="https://www.fh-wien.ac.at/studium/bachelor/journalismus-medienmanagement/?gad_source=1&gclid=CjwKCAiAlJKuBhAdEiwAnZb7laQSC6RCZWFV1Ure3a0nOXw5jr-twj5QbLDFxS_czIMmoMe0vNyXQhoCFEcQAvD_BwE">
+                  <a
+                    href="https://www.fh-wien.ac.at/studium/bachelor/journalismus-medienmanagement/?gad_source=1&gclid=CjwKCAiAlJKuBhAdEiwAnZb7laQSC6RCZWFV1Ure3a0nOXw5jr-twj5QbLDFxS_czIMmoMe0vNyXQhoCFEcQAvD_BwE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     BA Journalismus und Medienmanagement
                   </a>
                 </h3>
@@ -149,7 +173,11 @@ export default function AboutGerman() {
               </div>
               <div>
                 <h3>
-                  <a href="https://www.likakademie.com/lehrplan-dfo">
+                  <a
+                    href="https://www.likakademie.com/lehrplan-dfo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Diplom in Digitaler Fotografie und Bildbearbeitung
                   </a>
                 </h3>
@@ -159,6 +187,23 @@ export default function AboutGerman() {
                   Erlernen der unterschiedlichen Arten von Fotografie
                   (Portraitfotografie, Landschaftsfotografie, Produktfotografie)
                   und der digitalen Bildbearbeitung mit Adobe Photoshop.
+                </p>
+              </div>
+              <div>
+                <h3>
+                  <a
+                    href="https://www.brg-judenburg.ac.at/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Matura
+                  </a>
+                </h3>
+                <p>BG/BRG Judenburg</p>
+                <p>September 2009 - Juli 2017</p>
+                <p>
+                  Matura in Englisch, Französisch, Philosophie und Psychologie
+                  und Mathematik.
                 </p>
               </div>
             </div>
@@ -177,7 +222,9 @@ export default function AboutGerman() {
                 <h3>Co-Founder und stellvertretende Chefredakteurin</h3>
                 <p>Juli 2020 - Juni 2022</p>
                 <p>
-                  <a href="amrand.at">amrand.at</a>
+                  <a href="amrand.at" target="_blank" rel="noopener noreferrer">
+                    amrand.at
+                  </a>
                 </p>
                 <p>
                   Konzeption und Aufbau eines multimedialen Onlinemagazins.

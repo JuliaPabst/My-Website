@@ -9,7 +9,7 @@ function App() {
   const [language, setLanguage] = useState("German");
 
   function selectLanguage() {
-    if (language == "English") {
+    if (language === "English") {
       setLanguage("German");
     } else {
       setLanguage("English");
@@ -21,7 +21,7 @@ function App() {
       <header>
         <Navigation selectLanguage={selectLanguage} language={language} />
       </header>
-      {language == "German" ? <AboutGerman /> : <AboutEnglish />}
+      {language === "German" ? <AboutGerman /> : <AboutEnglish />}
     </div>
   );
 }

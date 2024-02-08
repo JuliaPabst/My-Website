@@ -85,7 +85,15 @@ export default function AboutGerman() {
             <div>
               <h2>Education</h2>
               <div>
-                <h3>BSC Informatik</h3>
+                <h3>
+                  <a
+                    href="https://www.technikum-wien.at/studienplan-bachelor-informatik-dual/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    BSC Computer Science
+                  </a>
+                </h3>
                 <p>FH Technikum Wien</p>
                 <p>since September 2023</p>
                 <p>
@@ -94,7 +102,15 @@ export default function AboutGerman() {
                 </p>
               </div>
               <div>
-                <h3>iOS & Swift - The Complete iOS App Development Bootcamp</h3>
+                <h3>
+                  <a
+                    href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    iOS & Swift - The Complete iOS App Development Bootcamp
+                  </a>
+                </h3>
                 <p>Udemy, Dr. Angela Yu</p>
                 <p>since December 2023</p>
                 <p>
@@ -103,7 +119,15 @@ export default function AboutGerman() {
                 </p>
               </div>
               <div>
-                <h3>Diploma Web-Development</h3>
+                <h3>
+                  <a
+                    href="https://codecool.com/en/courses/front-end-development-course/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Diploma Web-Development
+                  </a>
+                </h3>
                 <p>Codecool</p>
                 <p>December 2022 - June 2023</p>
                 <p>
@@ -112,13 +136,29 @@ export default function AboutGerman() {
                 </p>
               </div>
               <div>
-                <h3>Diploma Frontend-Development</h3>
+                <h3>
+                  <a
+                    href="https://www.shecodes.io/workshop-pro"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Diploma Frontend-Development
+                  </a>
+                </h3>
                 <p>SheCodes</p>
                 <p>November 2022 - May 2023</p>
                 <p>Learning HTML and CSS, usage of Networking and React.</p>
               </div>
               <div>
-                <h3>BA Journalism und Media Management</h3>
+                <h3>
+                  <a
+                    href="https://www.fh-wien.ac.at/studium/bachelor/journalismus-medienmanagement/?gad_source=1&gclid=CjwKCAiAlJKuBhAdEiwAnZb7laQSC6RCZWFV1Ure3a0nOXw5jr-twj5QbLDFxS_czIMmoMe0vNyXQhoCFEcQAvD_BwE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    BA Journalism und Media Management
+                  </a>
+                </h3>
                 <p>FH Wien der WKW</p>
                 <p>October 2017 - July 2021</p>
                 <p>
@@ -130,12 +170,37 @@ export default function AboutGerman() {
                 <p>Foundations of Contemporary Art Film Making.</p>
               </div>
               <div>
-                <h3>Diploma Digital Photography und Editing</h3>
+                <h3>
+                  <a
+                    href="https://www.likakademie.com/lehrplan-dfo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Diploma Digital Photography und Editing
+                  </a>
+                </h3>
                 <p>Lik Akademie für Foto und Design</p>
                 <p>September 2015 - July 2017</p>
                 <p>
                   Learning different kinds of photography (portrait, landscape,
                   product photography) and digital editing via Adobe Photoshop.
+                </p>
+              </div>
+              <div>
+                <h3>
+                  <a
+                    href="https://www.brg-judenburg.ac.at/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    A-Levels
+                  </a>
+                </h3>
+                <p>BG/BRG Judenburg</p>
+                <p>September 2009 - July 2017</p>
+                <p>
+                  A-Levels in English, French, Philosophy und Psychology und
+                  Math.
                 </p>
               </div>
             </div>
@@ -154,7 +219,9 @@ export default function AboutGerman() {
                 <h3>Co-Founder and Vice Editor in Chief</h3>
                 <p>July 2020 - June 2022</p>
                 <p>
-                  <a href="amrand.at">amrand.at</a>
+                  <a href="amrand.at" target="_blank" rel="noopener noreferrer">
+                    amrand.at
+                  </a>
                 </p>
                 <p>
                   Creation of a multimedia online magazine. Management of
