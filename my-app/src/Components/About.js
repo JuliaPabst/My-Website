@@ -121,6 +121,14 @@ export default function About() {
             </div>
           </div>
         </div>
+        <div>
+          <h2>Interessen</h2>
+          <ul>
+            <li>Singen in einer Band</li>
+            <li>Laufen & Radfahren</li>
+            <li>Science Fiction (Bücher, Filme, Serien)</li>
+          </ul>
+        </div>
       </section>
     </div>
   );
