@@ -28,7 +28,7 @@ export default function AboutGerman() {
       <section>
         <h1>CV</h1>
         <Row>
-          <Col lg={3} xl={3}>
+          <Col lg={4} xl={4}>
             <div>
               <h2>Skills</h2>
               <div>
@@ -80,8 +80,16 @@ export default function AboutGerman() {
               <p>Laufen & Radfahren</p>
               <p>Science Fiction (Bücher, Filme, Serien)</p>
             </div>
+            <video
+              autoPlay
+              muted
+              loop
+              className="video d-none d-lg-block d-xl-block"
+            >
+              <source src="type2.mp4" type="video/mp4" />
+            </video>
           </Col>
-          <Col lg={9} xl={9}>
+          <Col lg={8} xl={8}>
             <div>
               <h2>Ausbildung</h2>
               <div>
