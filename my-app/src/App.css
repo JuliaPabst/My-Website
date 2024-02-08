@@ -27,3 +27,7 @@
 .background {
   background-color: var(--background-color);
 }
+
+.myImage {
+  width: 100%;
+}
