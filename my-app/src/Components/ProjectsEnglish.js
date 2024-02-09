@@ -2,8 +2,21 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { useState } from "react";
 
 export default function ProjectsEnglish() {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  function togglePlay(selectedVideo) {
+    const video = document.querySelector("." + selectedVideo);
+    if (isPlaying) {
+      video.pause();
+    } else {
+      video.play();
+    }
+    setIsPlaying(!isPlaying);
+  }
+
   return (
     <Container>
       ProjectsEnglish
@@ -20,14 +33,16 @@ export default function ProjectsEnglish() {
             <a href="https://github.com/JuliaPabst/ToDo">ToDo</a>
           </p>
           <video
-            autoPlay
             muted
             loop
-            className="video projectVideo"
+            className="video projectVideo ToDo"
             alt="Video is loading"
           >
             <source src="ToDo.mp4" type="video/mp4" />
           </video>
+          <button onClick={(event) => togglePlay("ToDo")}>
+            {isPlaying ? "Pause" : "Play"}
+          </button>
         </Col>
         <Col lg={6} xl={6}>
           <h3>Chatty</h3>
@@ -40,14 +55,16 @@ export default function ProjectsEnglish() {
             <a href="https://github.com/JuliaPabst/Chatty">Chatty</a>
           </p>
           <video
-            autoPlay
             muted
             loop
-            className="video projectVideo"
+            className="video projectVideo Chatty"
             alt="Video is loading"
           >
-            <source src="Chatty.mp4" type="video/mp4" />
+            <source src="Chatty1.mp4" type="video/mp4" />
           </video>
+          <button onClick={(event) => togglePlay("Chatty")}>
+            {isPlaying ? "Pause" : "Play"}
+          </button>
         </Col>
       </Row>
     </Container>
