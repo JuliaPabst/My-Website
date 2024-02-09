@@ -67,6 +67,34 @@ export default function ProjectsEnglish() {
           </button>
         </Col>
       </Row>
+      <Row>
+        <h2>JavaScript</h2>
+        <Col lg={6} xl={6}>
+          <h3>Wine Online Shop</h3>
+          <p>
+            On this website you can buy wine. It is based on MERN-Stack. So it
+            uses MongoDB as a database. The server runs on express.js and
+            node.js. React is used for the frontend.
+          </p>
+          <p>
+            Link to GitHub repository:{" "}
+            <a href="https://github.com/JuliaPabst/Wine_Online_Shop">
+              Wine Online Shop
+            </a>
+          </p>
+          <video
+            muted
+            loop
+            className="video projectVideo Chatty"
+            alt="Video is loading"
+          >
+            <source src="Chatty1.mp4" type="video/mp4" />
+          </video>
+          <button onClick={(event) => togglePlay("Chatty")}>
+            {isPlaying ? "Pause" : "Play"}
+          </button>
+        </Col>
+      </Row>
     </Container>
   );
 }
