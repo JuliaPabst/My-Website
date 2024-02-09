@@ -1,12 +1,15 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default function ProjectsEnglish() {
   return (
-    <div>
+    <Container>
       ProjectsEnglish
-      <section>
+      <Row>
         <h2>Swift</h2>
-        <div>
+        <Col lg={6} xl={6}>
           <h3>ToDo</h3>
           <p>
             With this app you can keep track of all your ToDos. The first
@@ -25,8 +28,8 @@ export default function ProjectsEnglish() {
           >
             <source src="ToDo.mp4" type="video/mp4" />
           </video>
-        </div>
-        <div>
+        </Col>
+        <Col lg={6} xl={6}>
           <h3>Chatty</h3>
           <p>
             With this app you can keep in touch with your friends. This app uses
@@ -45,8 +48,8 @@ export default function ProjectsEnglish() {
           >
             <source src="Chatty.mp4" type="video/mp4" />
           </video>
-        </div>
-      </section>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
