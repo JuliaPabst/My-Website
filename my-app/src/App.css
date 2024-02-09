@@ -78,7 +78,10 @@
 
 .video {
   width: 100%;
-
   object-fit: cover;
   object-position: left;
+}
+
+.projectVideo {
+  width: 80%;
 }

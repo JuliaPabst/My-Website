@@ -20,7 +20,7 @@ function App() {
   }
 
   function selectMode(mode) {
-    if (mode == "me") {
+    if (mode === "me") {
       setMode("me");
     } else {
       setMode("projects");

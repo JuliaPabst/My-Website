@@ -7,7 +7,9 @@ export default function Navigation({ selectLanguage, language, selectMode }) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Julia Pabst</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <button onClick={(event) => selectMode("me")}>Julia Pabst</button>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
