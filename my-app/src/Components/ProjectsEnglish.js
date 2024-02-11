@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useState, useRef } from "react";
+import VideoPlayer from "./VideoPlayer";
 
 export default function ProjectsEnglish() {
   const [isPlayingToDo, setIsPlayingToDo] = useState(false);
@@ -49,6 +50,7 @@ export default function ProjectsEnglish() {
       <Row>
         <h2>Swift</h2>
         <Col lg={6} xl={6}>
+          <VideoPlayer />
           <h3>ToDo</h3>
           <p>
             With this app you can keep track of all your ToDos. The first
@@ -98,7 +100,6 @@ export default function ProjectsEnglish() {
             Link to GitHub repository:{" "}
             <a href="https://github.com/JuliaPabst/Chatty">Chatty</a>
           </p>
-       
         </Col>
       </Row>
       <Row>
