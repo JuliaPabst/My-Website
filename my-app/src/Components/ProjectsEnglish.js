@@ -2,19 +2,42 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export default function ProjectsEnglish() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlayingToDo, setIsPlayingToDo] = useState(false);
+  const [isPlayingChatty, setIsPlayingChatty] = useState(false);
+  const [isPlayingWine, setIsPlayingWine] = useState(false);
+  const videoRef = useRef(null);
 
-  function togglePlay(selectedVideo) {
+  function togglePlay(selectedVideo, isPlaying) {
     const video = document.querySelector("." + selectedVideo);
     if (isPlaying) {
       video.pause();
     } else {
       video.play();
     }
-    setIsPlaying(!isPlaying);
+
+    if (selectedVideo === "ToDo") {
+      setIsPlayingToDo(!isPlaying);
+    } else if (selectedVideo === "Chatty") {
+      setIsPlayingChatty(!isPlaying);
+    } else if (selectedVideo === "Wine") {
+      setIsPlayingWine(!isPlaying);
+    }
+  }
+
+  function skipTime(seconds) {
+    if (videoRef.current) {
+      videoRef.current.currentTime += seconds;
+    }
+  }
+
+  function seekTo(event) {
+    if (videoRef.current) {
+      const seekTime = (event.target.value * videoRef.current.duration) / 100;
+      videoRef.current.currentTime = seekTime;
+    }
   }
 
   return (
@@ -35,14 +58,18 @@ export default function ProjectsEnglish() {
           <video
             muted
             loop
+            ref={videoRef}
             className="video projectVideo ToDo"
             alt="Video is loading"
           >
             <source src="ToDo.mp4" type="video/mp4" />
           </video>
-          <button onClick={(event) => togglePlay("ToDo")}>
-            {isPlaying ? "Pause" : "Play"}
+          <button onClick={(event) => togglePlay("ToDo", isPlayingToDo)}>
+            {isPlayingToDo ? "Pause" : "Play"}
           </button>
+          <button onClick={() => skipTime(-10)}>-10s</button>
+          <button onClick={() => skipTime(10)}>+10s</button>
+          <input type="range" min="0" max="100" onChange={seekTo} />
         </Col>
         <Col lg={6} xl={6}>
           <h3>Chatty</h3>
@@ -62,8 +89,8 @@ export default function ProjectsEnglish() {
           >
             <source src="Chatty1.mp4" type="video/mp4" />
           </video>
-          <button onClick={(event) => togglePlay("Chatty")}>
-            {isPlaying ? "Pause" : "Play"}
+          <button onClick={(event) => togglePlay("Chatty", isPlayingChatty)}>
+            {isPlayingChatty ? "Pause" : "Play"}
           </button>
         </Col>
       </Row>
@@ -85,13 +112,13 @@ export default function ProjectsEnglish() {
           <video
             muted
             loop
-            className="video projectVideo Chatty"
+            className="video projectVideo Wine"
             alt="Video is loading"
           >
-            <source src="Chatty1.mp4" type="video/mp4" />
+            <source src="Wine.mp4" type="video/mp4" />
           </video>
-          <button onClick={(event) => togglePlay("Chatty")}>
-            {isPlaying ? "Pause" : "Play"}
+          <button onClick={(event) => togglePlay("Wine", isPlayingWine)}>
+            {isPlayingWine ? "Pause" : "Play"}
           </button>
         </Col>
       </Row>
