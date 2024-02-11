@@ -8,7 +8,7 @@ export default function ProjectsEnglish() {
   const [isPlayingToDo, setIsPlayingToDo] = useState(false);
   const [isPlayingChatty, setIsPlayingChatty] = useState(false);
   const [isPlayingWine, setIsPlayingWine] = useState(false);
-  const videoRef = useRef(null);
+  const videoRefToDo = useRef(null);
 
   function togglePlay(selectedVideo, isPlaying) {
     const video = document.querySelector("." + selectedVideo);
@@ -27,13 +27,13 @@ export default function ProjectsEnglish() {
     }
   }
 
-  function skipTime(seconds) {
+  function skipTime(seconds, videoRef) {
     if (videoRef.current) {
       videoRef.current.currentTime += seconds;
     }
   }
 
-  function seekTo(event) {
+  function seekTo(event, videoRef) {
     if (videoRef.current) {
       const seekTime = (event.target.value * videoRef.current.duration) / 100;
       videoRef.current.currentTime = seekTime;
@@ -58,7 +58,7 @@ export default function ProjectsEnglish() {
           <video
             muted
             loop
-            ref={videoRef}
+            ref={videoRefToDo}
             className="video projectVideo ToDo"
             alt="Video is loading"
           >
@@ -67,9 +67,14 @@ export default function ProjectsEnglish() {
           <button onClick={(event) => togglePlay("ToDo", isPlayingToDo)}>
             {isPlayingToDo ? "Pause" : "Play"}
           </button>
-          <button onClick={() => skipTime(-10)}>-10s</button>
-          <button onClick={() => skipTime(10)}>+10s</button>
-          <input type="range" min="0" max="100" onChange={seekTo} />
+          <button onClick={() => skipTime(-10, videoRefToDo)}>-10s</button>
+          <button onClick={() => skipTime(10, videoRefToDo)}>+10s</button>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            onChange={(event) => seekTo(event, videoRefToDo)}
+          />
         </Col>
         <Col lg={6} xl={6}>
           <h3>Chatty</h3>
