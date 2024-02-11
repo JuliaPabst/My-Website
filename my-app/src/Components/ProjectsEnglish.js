@@ -50,7 +50,6 @@ export default function ProjectsEnglish() {
       <Row>
         <h2>Swift</h2>
         <Col lg={6} xl={6}>
-          <VideoPlayer />
           <h3>ToDo</h3>
           <p>
             With this app you can keep track of all your ToDos. The first
@@ -60,35 +59,7 @@ export default function ProjectsEnglish() {
             Link to GitHub repository:{" "}
             <a href="https://github.com/JuliaPabst/ToDo">ToDo</a>
           </p>
-          <video
-            muted
-            ref={videoRefToDo}
-            className="video projectVideo ToDo"
-            alt="Video is loading"
-            onTimeUpdate={() => {
-              if (videoRefToDo.current) {
-                const progress =
-                  (videoRefToDo.current.currentTime /
-                    videoRefToDo.current.duration) *
-                  100;
-                setProgressToDo(progress);
-              }
-            }}
-          >
-            <source src="ToDo.mp4" type="video/mp4" />
-          </video>
-          <button onClick={(event) => togglePlay("ToDo", isPlayingToDo)}>
-            {isPlayingToDo ? "Pause" : "Play"}
-          </button>
-          <button onClick={() => skipTime(-5, videoRefToDo)}>-5s</button>
-          <button onClick={() => skipTime(5, videoRefToDo)}>+5s</button>
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value={progressToDo}
-            onChange={(event) => seekTo(event, videoRefToDo)}
-          />
+          <VideoPlayer videoName="ToDo" />
         </Col>
         <Col lg={6} xl={6}>
           <h3>Chatty</h3>
@@ -100,11 +71,12 @@ export default function ProjectsEnglish() {
             Link to GitHub repository:{" "}
             <a href="https://github.com/JuliaPabst/Chatty">Chatty</a>
           </p>
+          <VideoPlayer videoName="Chatty1" />
         </Col>
       </Row>
       <Row>
         <h2>JavaScript</h2>
-        <Col lg={6} xl={6}>
+        <Col>
           <h3>Wine Online Shop</h3>
           <p>
             On this website you can buy wine. It is based on MERN-Stack. So it
@@ -117,17 +89,7 @@ export default function ProjectsEnglish() {
               Wine Online Shop
             </a>
           </p>
-          <video
-            muted
-            loop
-            className="video projectVideo Wine"
-            alt="Video is loading"
-          >
-            <source src="Wine.mp4" type="video/mp4" />
-          </video>
-          <button onClick={(event) => togglePlay("Wine", isPlayingWine)}>
-            {isPlayingWine ? "Pause" : "Play"}
-          </button>
+          <VideoPlayer videoName="Wine" />
         </Col>
       </Row>
     </Container>

@@ -1,13 +1,13 @@
 import React from "react";
 import { useState, useRef } from "react";
 
-export default function VideoPlayer() {
+export default function VideoPlayer({ videoName }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
   const videoRef = useRef(null);
 
   function togglePlay() {
-    const video = document.querySelector("." + "video");
+    const video = document.querySelector("." + videoName);
     if (isPlaying) {
       video.pause();
     } else {
@@ -36,7 +36,7 @@ export default function VideoPlayer() {
       <video
         muted
         ref={videoRef}
-        className="video projectVideo Chatty"
+        className={videoName}
         alt="Video is loading"
         onTimeUpdate={() => {
           if (videoRef.current) {
@@ -46,13 +46,12 @@ export default function VideoPlayer() {
           }
         }}
       >
-        <source src="Chatty1.mp4" type="video/mp4" />
+        <source src={videoName + ".mp4"} type="video/mp4" />
       </video>
       <button onClick={(event) => togglePlay("Chatty")}>
-        {isPlaying ? "Pause" : "Play"}
+        {isPlaying ? "⏸️" : "▶️"}
       </button>
       <button onClick={() => skipTime(-5)}>-5s</button>
-      <button onClick={() => skipTime(5)}>+5s</button>
       <input
         type="range"
         min="0"
@@ -60,6 +59,7 @@ export default function VideoPlayer() {
         value={progress}
         onChange={seekTo}
       />
+      <button onClick={() => skipTime(5)}>+5s</button>
     </div>
   );
 }
