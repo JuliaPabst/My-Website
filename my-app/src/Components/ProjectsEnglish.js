@@ -6,9 +6,12 @@ import { useState, useRef } from "react";
 
 export default function ProjectsEnglish() {
   const [isPlayingToDo, setIsPlayingToDo] = useState(false);
-  const [isPlayingChatty, setIsPlayingChatty] = useState(false);
-  const [isPlayingWine, setIsPlayingWine] = useState(false);
+  const [progressToDo, setProgressToDo] = useState(0);
   const videoRefToDo = useRef(null);
+  const [isPlayingChatty, setIsPlayingChatty] = useState(false);
+  const [progressChatty, setProgressChatty] = useState(0);
+  const videoRefChatty = useRef(null);
+  const [isPlayingWine, setIsPlayingWine] = useState(false);
 
   function togglePlay(selectedVideo, isPlaying) {
     const video = document.querySelector("." + selectedVideo);
@@ -57,22 +60,31 @@ export default function ProjectsEnglish() {
           </p>
           <video
             muted
-            loop
             ref={videoRefToDo}
             className="video projectVideo ToDo"
             alt="Video is loading"
+            onTimeUpdate={() => {
+              if (videoRefToDo.current) {
+                const progress =
+                  (videoRefToDo.current.currentTime /
+                    videoRefToDo.current.duration) *
+                  100;
+                setProgressToDo(progress);
+              }
+            }}
           >
             <source src="ToDo.mp4" type="video/mp4" />
           </video>
           <button onClick={(event) => togglePlay("ToDo", isPlayingToDo)}>
             {isPlayingToDo ? "Pause" : "Play"}
           </button>
-          <button onClick={() => skipTime(-10, videoRefToDo)}>-10s</button>
-          <button onClick={() => skipTime(10, videoRefToDo)}>+10s</button>
+          <button onClick={() => skipTime(-5, videoRefToDo)}>-5s</button>
+          <button onClick={() => skipTime(5, videoRefToDo)}>+5s</button>
           <input
             type="range"
             min="0"
             max="100"
+            value={progressToDo}
             onChange={(event) => seekTo(event, videoRefToDo)}
           />
         </Col>
@@ -86,17 +98,7 @@ export default function ProjectsEnglish() {
             Link to GitHub repository:{" "}
             <a href="https://github.com/JuliaPabst/Chatty">Chatty</a>
           </p>
-          <video
-            muted
-            loop
-            className="video projectVideo Chatty"
-            alt="Video is loading"
-          >
-            <source src="Chatty1.mp4" type="video/mp4" />
-          </video>
-          <button onClick={(event) => togglePlay("Chatty", isPlayingChatty)}>
-            {isPlayingChatty ? "Pause" : "Play"}
-          </button>
+       
         </Col>
       </Row>
       <Row>
