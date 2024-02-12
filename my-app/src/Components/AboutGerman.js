@@ -99,7 +99,7 @@ export default function AboutGerman() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    BSC Informatik
+                    B.Sc. Informatik
                   </a>
                 </h3>
                 <h4>FH Technikum Wien</h4>

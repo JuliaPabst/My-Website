@@ -91,7 +91,7 @@ export default function AboutGerman() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    BSC Computer Science
+                    B.Sc. Computer Science
                   </a>
                 </h3>
                 <h4>FH Technikum Wien</h4>
