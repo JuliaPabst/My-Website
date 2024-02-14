@@ -1,10 +1,10 @@
 :root {
   --primary-color: #00bcd4;
   --secondary-color: #333333;
-  --tertiary-color: #424242;
+  --tertiary-color: #c2c2c2;
   --quartary-color: #f8f9fa;
   --quintary-color: #cddc39;
-  --background-color: #f6f6f6;
+  --background-color: white;
 }
 
 @keyframes App-logo-spin {
@@ -16,15 +16,35 @@
   }
 }
 
-.no-margin {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  background-color: black;
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Montserrat";
+}
+
+a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+hr {
+  color: white;
+  margin: 0;
 }
 
 .app {
   text-align: center;
+  font-family: "Open Sans";
   margin: 0;
+}
+
+.background {
+  background-color: var(--background-color);
+}
+
+.padding-left-right-up {
+  padding: 20px 30px 0px 30px;
 }
 
 .navbar-design {
@@ -46,14 +66,6 @@
 .home-button {
   font-size: 30px;
   font-weight: 700;
-}
-
-hr {
-  color: white;
-  margin: 0;
-}
-.background {
-  background-color: var(--background-color);
 }
 
 .imageContainer {
@@ -87,6 +99,16 @@ hr {
   right: 0;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+  background-color: var(--tertiary-color);
+  color: white;
+  padding: 20px;
+}
+
+.contact-heading {
+  color: white;
 }
 
 .progress-bar {

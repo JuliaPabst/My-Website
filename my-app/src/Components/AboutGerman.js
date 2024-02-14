@@ -28,13 +28,13 @@ export default function AboutGerman() {
             className="myImage d-none d-lg-block d-xl-block"
           />
         </div>
-        <p>
+        <p className="padding-left-right-up ">
           Hi, ich bin Jules! Diese Website soll zeigen, wer ich bin und was ich
           bereits gemacht habe.
         </p>
       </section>
-      <section>
-        <h2>Kontakt</h2>
+      <section className="contact">
+        <h2 className="contact-heading">Kontakt</h2>
         <div>
           <a href="tel:+436601256182">+43 660 1256182</a>
         </div>
