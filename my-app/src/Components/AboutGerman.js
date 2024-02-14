@@ -28,7 +28,7 @@ export default function AboutGerman() {
             className="myImage d-none d-lg-block d-xl-block"
           />
         </div>
-        <p className="padding-left-right-up ">
+        <p className="padding-left-right-up">
           Hi, ich bin Jules! Diese Website soll zeigen, wer ich bin und was ich
           bereits gemacht habe.
         </p>
@@ -43,43 +43,43 @@ export default function AboutGerman() {
         </div>
         <div>Am Tabor 23/92, 1020 Wien</div>
       </section>
-      <section>
+      <section className="padding-left-right-up">
         <h1>CV</h1>
         <Row>
           <Col lg={4} xl={4}>
             <div>
               <h2>Skills</h2>
-              <div>
+              <div className="padding-left-right-up">
                 <div class="progress-bar">
                   <div class="progress-fill-80"></div>
                 </div>
                 <div>HTML & CSS</div>
               </div>
-              <div>
+              <div className="padding-left-right-up">
                 <div class="progress-bar">
                   <div class="progress-fill-70"></div>
                 </div>
                 <div>JavaScript & MERN-Stack</div>
               </div>
-              <div>
+              <div className="padding-left-right-up">
                 <div class="progress-bar">
                   <div class="progress-fill-60"></div>
                 </div>
                 <div>Swift</div>
               </div>
-              <div>
+              <div className="padding-left-right-up">
                 <div class="progress-bar">
                   <div class="progress-fill-60"></div>
                 </div>
                 <div>C & PHP</div>
               </div>
-              <div>
+              <div className="padding-left-right-up">
                 <div class="progress-bar">
                   <div class="progress-fill-60"></div>
                 </div>
                 <div>SQL</div>
               </div>
-              <div>
+              <div className="padding-left-right-up">
                 <div class="progress-bar">
                   <div class="progress-fill-60"></div>
                 </div>
@@ -108,7 +108,7 @@ export default function AboutGerman() {
             </video>
           </Col>
           <Col lg={8} xl={8}>
-            <div>
+            <div className="padding-left-right-up">
               <h2>Ausbildung</h2>
               <div>
                 <h3>
@@ -116,6 +116,7 @@ export default function AboutGerman() {
                     href="https://www.technikum-wien.at/studienplan-bachelor-informatik-dual/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="education-link"
                   >
                     B.Sc. Informatik
                   </a>

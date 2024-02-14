@@ -16,10 +16,24 @@
   }
 }
 
+h1 {
+  color: var(--primary-color);
+  font-size: 70px;
+  font-weight: 800;
+  font-family: "Montserrat";
+}
+
 h2 {
   font-weight: 600;
   font-size: 40px;
   font-family: "Montserrat";
+  padding: 0px;
+  color: var(--quintary-color);
+}
+
+h3 {
+  padding: 0px;
+  margin: 0;
 }
 
 a {
@@ -83,6 +97,8 @@ hr {
   font-weight: 700;
   font-size: 40px;
   color: white;
+  padding: 0px;
+  margin: 0px;
 }
 
 .profession {
@@ -99,6 +115,7 @@ hr {
   right: 0;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
 .contact {
@@ -109,6 +126,7 @@ hr {
 
 .contact-heading {
   color: white;
+  padding: 0px;
 }
 
 .progress-bar {
@@ -163,6 +181,12 @@ hr {
 
 .projectVideo {
   width: 100%;
+}
+
+.education-link {
+  color: black;
+
+  font-size: 30px;
 }
 
 @media (min-width: 430px) {
