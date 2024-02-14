@@ -28,8 +28,23 @@
   background-color: var(--background-color);
 }
 
+.imageContainer {
+  position: relative;
+}
+
 .myImage {
   width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  color: white;
+  position: absolute;
+  bottom: 33%;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .progress-bar {

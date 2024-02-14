@@ -7,9 +7,27 @@ export default function AboutGerman() {
   return (
     <Container>
       <section>
-        <h1>Julia Pabst</h1>
-        <h2>Web & Mobile Development</h2>
-        <img src="/square.jpg" alt="Julia Pabst" className="myImage"></img>
+        <div className="imageContainer">
+          <div className="title">
+            <h1>Julia Pabst</h1>
+            <h2>Web & Mobile Development</h2>
+          </div>
+          <img
+            src="/square.png"
+            alt="Julia Pabst"
+            className="myImage d-block d-md-none"
+          />
+          <img
+            src="/quer.png"
+            alt="Julia Pabst"
+            className="myImage d-none d-md-block d-lg-none d-xl-none"
+          />
+          <img
+            src="/panorama.png"
+            alt="Julia Pabst"
+            className="myImage d-none d-lg-block d-xl-block"
+          />
+        </div>
         <p>
           Hi, ich bin Jules! Diese Website soll zeigen, wer ich bin und was ich
           bereits gemacht habe.
