@@ -34,6 +34,7 @@ function App() {
           selectLanguage={selectLanguage}
           language={language}
           selectMode={selectMode}
+          className="no-padding"
         />
       </header>
       {language === "German" ? (

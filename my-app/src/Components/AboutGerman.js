@@ -5,17 +5,17 @@ import Col from "react-bootstrap/Col";
 
 export default function AboutGerman() {
   return (
-    <Container>
+    <Container fluid className="px-0">
       <section>
         <div className="imageContainer">
           <div className="title">
-            <h1>Julia Pabst</h1>
-            <h2>Web & Mobile Development</h2>
+            <h1 className="name">Julia Pabst</h1>
+            <h2 className="profession">Web & Mobile Development</h2>
           </div>
           <img
             src="/square.png"
             alt="Julia Pabst"
-            className="myImage d-block d-md-none"
+            className="myImage d-block d-md-none m-0"
           />
           <img
             src="/quer.png"

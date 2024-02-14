@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 export default function Navigation({ selectLanguage, language, selectMode }) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+      <Container fluid>
         <Navbar.Brand href="#home">
           <button onClick={(event) => selectMode("me")}>Julia Pabst</button>
         </Navbar.Brand>

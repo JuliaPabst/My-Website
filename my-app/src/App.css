@@ -16,8 +16,15 @@
   }
 }
 
+.no-margin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  background-color: black;
+}
+
 .app {
   text-align: center;
+  margin: 0;
 }
 
 .color-test {
@@ -38,13 +45,27 @@
   display: block;
 }
 
-.title {
+.name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
   color: white;
+}
+
+.profession {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
+.title {
   position: absolute;
-  bottom: 33%;
+  bottom: 10%;
   left: 0;
   right: 0;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .progress-bar {
@@ -99,4 +120,29 @@
 
 .projectVideo {
   width: 100%;
+}
+
+@media (min-width: 430px) {
+  .title {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+  }
+
+  .profession {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+  }
 }
