@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 export default function AboutGerman() {
   return (
-    <Container fluid className="px-0">
+    <Container fluid className="px-0 background">
       <section>
         <div className="imageContainer">
           <div className="title">
