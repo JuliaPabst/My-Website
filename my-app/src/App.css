@@ -3,7 +3,7 @@
   --secondary-color: #333333;
   --tertiary-color: #c2c2c2;
   --quartary-color: #f8f9fa;
-  --quintary-color: #cddc39;
+  --quintary-color: #537ab4;
   --background-color: white;
 }
 
@@ -20,6 +20,7 @@ h1 {
   color: var(--primary-color);
   font-size: 70px;
   font-weight: 800;
+  padding: 0;
   font-family: "Montserrat";
 }
 
@@ -27,13 +28,7 @@ h2 {
   font-weight: 600;
   font-size: 40px;
   font-family: "Montserrat";
-  padding: 0px;
   color: var(--quintary-color);
-}
-
-h3 {
-  padding: 0px;
-  margin: 0;
 }
 
 a {
@@ -47,6 +42,14 @@ hr {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 800px;
+}
 .app {
   text-align: center;
   font-family: "Open Sans";
@@ -58,7 +61,23 @@ hr {
 }
 
 .padding-left-right-up {
-  padding: 20px 30px 0px 30px;
+  padding: 30px 30px 0px 30px;
+}
+
+.padding-left-right {
+  padding: 0px 20px;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.padding-top-section {
+  padding-top: 30px;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .navbar-design {
@@ -183,10 +202,50 @@ hr {
   width: 100%;
 }
 
-.education-link {
-  color: black;
+.dark-grey-background {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 20px;
+}
 
+.education-link {
+  color: var(--primary-color);
   font-size: 30px;
+  font-weight: 700;
+}
+
+.institution {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.since {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.education-description {
+  padding: 0;
+  margin: 0;
+}
+
+.language {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.language-level {
+  font-weight: 300;
+  color: white;
+}
+
+.language-no-padding {
+  font-weight: 600;
+  color: var(--primary-color);
+  padding: 0;
+  margin: 0;
 }
 
 @media (min-width: 430px) {

@@ -36,7 +36,7 @@ export default function ProjectsEnglish() {
       </Row>
       <Row>
         <h2>JavaScript</h2>
-        <Col>
+        <div>
           <h3>Wine Online Shop</h3>
           <p>On this website you can buy wine.</p>
           <p>
@@ -49,8 +49,8 @@ export default function ProjectsEnglish() {
             </a>
           </p>
           <VideoPlayer videoName="Wine02" />
-        </Col>
-        <Col>
+        </div>
+        <div>
           <h3>Online Weather App</h3>
           <p>
             On this website you can search for the weather forecast for a cities
@@ -65,11 +65,9 @@ export default function ProjectsEnglish() {
           </p>
           <iframe
             src="https://jade-blancmange-f3463d.netlify.app/"
-            width="600"
-            height="400"
             title="weather-app"
           ></iframe>
-        </Col>
+        </div>
       </Row>
     </Container>
   );
