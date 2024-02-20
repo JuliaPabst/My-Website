@@ -28,10 +28,6 @@ export default function AboutGerman() {
             className="myImage d-none d-lg-block d-xl-block"
           />
         </div>
-        <p className="padding-left-right-up dark-grey-background ">
-          Hi, ich bin Jules! Diese Website soll zeigen, wer ich bin und was ich
-          bereits gemacht habe.
-        </p>
       </section>
       <section className="contact">
         <h2 className="contact-heading">Kontakt</h2>
@@ -43,10 +39,10 @@ export default function AboutGerman() {
         </div>
         <div>Am Tabor 23/92, 1020 Wien</div>
       </section>
-      <section className="padding-top-section dark-grey-background">
+      <section className="padding-top-section">
         <h1>CV</h1>
         <Row>
-          <Col lg={4} xl={4}>
+          <Col lg={4} xl={4} className="column">
             <div>
               <h2>Skills</h2>
               <div>
@@ -110,9 +106,9 @@ export default function AboutGerman() {
             </video>
           </Col>
           <Col lg={8} xl={8}>
-            <div className="padding-top-section">
+            <div className="padding-top-section padding-left-right margin-top-section column-cv">
               <h2>Ausbildung</h2>
-              <div className="dark-grey-background">
+              <div className="">
                 <h3>
                   <a
                     href="https://www.technikum-wien.at/studienplan-bachelor-informatik-dual/"
@@ -130,7 +126,7 @@ export default function AboutGerman() {
                   Datenmanagements mit SQL.
                 </p>
               </div>
-              <div className="padding-top padding-left-right">
+              <div className="padding-top padding-left-right margin-top-section">
                 <h3>
                   <a
                     href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"
@@ -148,7 +144,7 @@ export default function AboutGerman() {
                   SwiftUI, Networking, Firebase, CoreData, Realm.
                 </p>
               </div>
-              <div className="padding-top dark-grey-background">
+              <div className="padding-top margin-top-section">
                 <h3>
                   <a
                     href="https://codecool.com/en/courses/front-end-development-course/"
@@ -166,7 +162,7 @@ export default function AboutGerman() {
                   GitHub und MERN-Stack.
                 </p>
               </div>
-              <div className="padding-top padding-left-right">
+              <div className="padding-top padding-left-right margin-top-section">
                 <h3>
                   <a
                     href="https://www.shecodes.io/workshop-pro"
@@ -183,7 +179,7 @@ export default function AboutGerman() {
                   Erlernen von HTML und CSS. Anwendung von Networking und React.
                 </p>
               </div>
-              <div className="padding-top dark-grey-background">
+              <div className="padding-top margin-top-section">
                 <h3>
                   <a
                     href="https://www.fh-wien.ac.at/studium/bachelor/journalismus-medienmanagement/?gad_source=1&gclid=CjwKCAiAlJKuBhAdEiwAnZb7laQSC6RCZWFV1Ure3a0nOXw5jr-twj5QbLDFxS_czIMmoMe0vNyXQhoCFEcQAvD_BwE"
@@ -206,7 +202,7 @@ export default function AboutGerman() {
                 <p>Jänner 2020 - Mai 2020</p>
                 <p>Grundlagen des Contemporary Art Film makings.</p>
               </div>
-              <div className="padding-top padding-left-right">
+              <div className="padding-top padding-left-right margin-top-section">
                 <h3>
                   <a
                     href="https://www.likakademie.com/lehrplan-dfo"
@@ -227,7 +223,7 @@ export default function AboutGerman() {
                   und der digitalen Bildbearbeitung mit Adobe Photoshop.
                 </p>
               </div>
-              <div className="padding-top dark-grey-background">
+              <div className="padding-top margin-top-section">
                 <h3>
                   <a
                     href="https://www.brg-judenburg.ac.at/"
@@ -246,7 +242,7 @@ export default function AboutGerman() {
                 </p>
               </div>
             </div>
-            <div className="padding-top-section">
+            <div className="padding-top-section column-cv">
               <h2>Berufserfahrung</h2>
               <div className="padding-left-right">
                 <h3 className="education-link">
@@ -261,7 +257,7 @@ export default function AboutGerman() {
                   im Bereich Wirtschafts- und Technologiejournalismus
                 </p>
               </div>
-              <div className="padding-top dark-grey-background">
+              <div className="padding-top ">
                 <h3 className="education-link">
                   Co-Founder und stellvertretende Chefredakteurin
                 </h3>
@@ -298,21 +294,21 @@ export default function AboutGerman() {
                 </div>
               </div>
             </div>
-            <div className="d-block d-lg-none padding-top-section">
+            <div className="d-block d-lg-none padding-top-section column-cv">
               <h2>Sprachen</h2>
-              <div className="dark-grey-background">
+              <div>
                 <p className="language">
                   Deutsch: <span className="language-level">C2</span>
                 </p>
                 <p className="language">
                   Englisch: <span className="language-level">C2</span>
                 </p>
-                <p className="language-no-padding">
+                <p className="language">
                   Französisch: <span className="language-level">B1</span>
                 </p>
               </div>
             </div>
-            <div className="d-block d-lg-none padding-top-section">
+            <div className="d-block d-lg-none padding-top-section column-cv">
               <h2>Interessen</h2>
               <p>Singen in einer Band</p>
               <p>Laufen & Radfahren</p>

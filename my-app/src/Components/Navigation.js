@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-export default function Navigation({ selectLanguage, language, selectMode }) {
+export default function Navigation({ language, selectedLanguage, selectMode }) {
   return (
     <Navbar expand="lg" className="navbar-design">
       <Container fluid>
@@ -30,7 +30,12 @@ export default function Navigation({ selectLanguage, language, selectMode }) {
                   Über mich
                 </button>
               ) : (
-                <button onClick={(event) => selectMode("me")}>About me</button>
+                <button
+                  onClick={(event) => selectMode("me")}
+                  className="navbar-button"
+                >
+                  About me
+                </button>
               )}
             </Navbar.Text>
             <hr></hr>
@@ -48,18 +53,6 @@ export default function Navigation({ selectLanguage, language, selectMode }) {
                   className="navbar-button"
                 >
                   Projects
-                </button>
-              )}
-            </Navbar.Text>
-            <hr></hr>
-            <Navbar.Text>
-              {language === "German" ? (
-                <button onClick={selectLanguage} className="navbar-button">
-                  🇬🇧 English
-                </button>
-              ) : (
-                <button onClick={selectLanguage} className="navbar-button">
-                  🇩🇪 Deutsch
                 </button>
               )}
             </Navbar.Text>

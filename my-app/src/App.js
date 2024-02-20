@@ -5,6 +5,7 @@ import AboutGerman from "./Components/AboutGerman.js";
 import AboutEnglish from "./Components/AboutEnglish.js";
 import ProjectsGerman from "./Components/ProjectsGerman.js";
 import ProjectsEnglish from "./Components/ProjectsEnglish.js";
+import Footer from "./Components/Footer";
 import { useState } from "react";
 
 function App() {
@@ -30,12 +31,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <Navigation
-          selectLanguage={selectLanguage}
-          language={language}
-          selectMode={selectMode}
-          className="no-padding"
-        />
+        <Navigation selectMode={selectMode} className="no-padding" />
       </header>
       {language === "German" ? (
         mode === "me" ? (
@@ -48,6 +44,7 @@ function App() {
       ) : (
         <ProjectsEnglish />
       )}
+      <Footer selectLanguage={selectLanguage} language={language} />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 :root {
   --primary-color: #00bcd4;
   --secondary-color: #333333;
-  --tertiary-color: #c2c2c2;
-  --quartary-color: #f8f9fa;
+  --tertiary-color: #eceeee;
+  --quartary-color: #d8d8d8;
   --quintary-color: #537ab4;
   --background-color: white;
 }
@@ -80,6 +80,15 @@ iframe {
   padding: 0;
 }
 
+.margin-top-section {
+  margin-top: 30px;
+}
+
+.hr-sections {
+  margin: 20px 0 0px 0;
+  color: black;
+}
+
 .navbar-design {
   background-color: var(--secondary-color);
 }
@@ -138,7 +147,7 @@ iframe {
 }
 
 .contact {
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   color: white;
   padding: 20px;
 }
@@ -146,6 +155,15 @@ iframe {
 .contact-heading {
   color: white;
   padding: 0px;
+}
+
+.column-cv {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  border-width: 0.5px;
+  border-color: var(--quartary-color);
+  border-style: solid;
 }
 
 .progress-bar {
@@ -204,19 +222,19 @@ iframe {
 
 .dark-grey-background {
   background-color: var(--secondary-color);
-  color: white;
+  color: black;
   padding: 20px;
 }
 
 .education-link {
   color: var(--primary-color);
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .institution {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .since {
@@ -232,13 +250,13 @@ iframe {
 }
 
 .language {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--primary-color);
 }
 
 .language-level {
   font-weight: 300;
-  color: white;
+  color: black;
 }
 
 .language-no-padding {
@@ -246,6 +264,10 @@ iframe {
   color: var(--primary-color);
   padding: 0;
   margin: 0;
+}
+
+.footer {
+  background-color: var(--secondary-color);
 }
 
 @media (min-width: 430px) {
