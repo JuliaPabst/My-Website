@@ -44,7 +44,11 @@ export default function AboutGerman() {
         <Row>
           <Col lg={4} xl={4}>
             <div className="padding-top-section column-cv">
-              <img src="icons/skills.png"></img>
+              <img
+                src="icons/skills.png"
+                alt="graphic skills"
+                className="icon"
+              ></img>
               <h2>Skills</h2>
               <div>
                 <div className="padding-left-right-up">
@@ -108,7 +112,11 @@ export default function AboutGerman() {
           </Col>
           <Col lg={8} xl={8}>
             <div className="padding-top-section padding-left-right column-cv">
-              <img src="icons/education.png"></img>
+              <img
+                src="icons/education.png"
+                alt="graphic education"
+                className="icon"
+              ></img>
               <h2>Ausbildung</h2>
               <div className="">
                 <h3>
@@ -245,7 +253,11 @@ export default function AboutGerman() {
               </div>
             </div>
             <div className="padding-top-section column-cv">
-              <img src="icons/work.png"></img>
+              <img
+                src="icons/work.png"
+                alt="graphic work"
+                className="icon"
+              ></img>
               <h2>Berufserfahrung</h2>
               <div className="padding-left-right">
                 <h3 className="education-link">
@@ -298,7 +310,11 @@ export default function AboutGerman() {
               </div>
             </div>
             <div className="d-block d-lg-none padding-top-section column-cv">
-              <img src="icons/languages.png"></img>
+              <img
+                src="icons/languages.png"
+                alt="graphic languages"
+                className="icon"
+              ></img>
               <h2>Sprachen</h2>
               <div>
                 <p className="language">
@@ -313,7 +329,11 @@ export default function AboutGerman() {
               </div>
             </div>
             <div className="d-block d-lg-none padding-top-section column-cv margin-bottom-section">
-              <img src="icons/interests.png"></img>
+              <img
+                src="icons/interests.png"
+                alt="graphic interests"
+                className="icon"
+              ></img>
               <h2>Interessen</h2>
               <p>Singen in einer Band</p>
               <p>Laufen & Radfahren</p>

@@ -175,6 +175,12 @@ iframe {
   border-style: solid;
 }
 
+.icon {
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
 .progress-bar {
   width: 30%;
   background-color: #e0e0e0;
