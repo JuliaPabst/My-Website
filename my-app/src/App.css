@@ -437,6 +437,7 @@ iframe {
     border-radius: 7px;
     color: white;
     font-size: 30px;
+    border: 10px solid white;
   }
 
   .play-button {
