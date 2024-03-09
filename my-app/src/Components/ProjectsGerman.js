@@ -20,10 +20,10 @@ export default function ProjectsGerman() {
             </span>{" "}
             Realm (final version), CoreData (first version)
           </p>
-          <p className="project-description-definition">
+          <p className="project-description-definition margin-bottom-section">
             Link to GitHub repository:
             <a
-              className="link-projects"
+              className="link-projects margin-bottom-section"
               href="https://github.com/JuliaPabst/ToDo"
             >
               ToDo
@@ -32,7 +32,7 @@ export default function ProjectsGerman() {
           <VideoPlayer videoName="ToDo" />
         </Col>
         <Col lg={6} xl={6}>
-          <h3 className="project-name">Chatty</h3>
+          <h3 className="project-name chatty-name">Chatty</h3>
           <p className="project-description">
             With this app you can keep in touch with your friends.
           </p>
@@ -42,10 +42,10 @@ export default function ProjectsGerman() {
             </span>{" "}
             Networking, Firebase: Authentication and FireStore
           </p>
-          <p className="project-description-definition">
+          <p className="project-description-definition margin-bottom-section">
             Link to GitHub repository:
             <a
-              className="link-projects"
+              className="link-projects margin-bottom-section"
               href="https://github.com/JuliaPabst/Chatty"
             >
               Chatty
@@ -67,10 +67,10 @@ export default function ProjectsGerman() {
             </span>{" "}
             MERN-Stack (MongoDB, express.js, React, node.js)
           </p>
-          <p className="project-description-definition">
+          <p className="project-description-definition margin-bottom-section">
             Link to GitHub repository:
             <a
-              className="link-projects"
+              className="link-projects margin-bottom-section"
               href="https://github.com/JuliaPabst/Wine_Online_Shop"
             >
               Wine Online Shop
@@ -79,7 +79,9 @@ export default function ProjectsGerman() {
           <VideoPlayer videoName="Wine02" />
         </div>
         <div className="margin-top-section">
-          <h3 className="project-name">Online Weather App</h3>
+          <h3 className="project-name margin-top-section">
+            Online Weather App
+          </h3>
           <p className="project-description">
             On this website you can search for the weather forecast for a cities
             all across the world. It is based on the API of OpenWeather.
@@ -90,10 +92,10 @@ export default function ProjectsGerman() {
             </span>{" "}
             React, Networking
           </p>
-          <p className="project-description-definition">
+          <p className="project-description-definition margin-bottom-section">
             Link to GitHub repository:
             <a
-              className="link-projects"
+              className="link-projects margin-bottom-section"
               href="https://github.com/JuliaPabst/weather-app-react"
             >
               Online Weather App
