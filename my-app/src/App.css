@@ -286,6 +286,32 @@ iframe {
   background-color: var(--secondary-color);
 }
 
+.language-projects {
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+.link-projects {
+  color: var(--primary-color);
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.project-description {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--primary-color);
+}
+
+.project-description-definition {
+  font-weight: 600;
+}
+
 @media (min-width: 430px) {
   .title {
     position: absolute;
@@ -315,7 +341,7 @@ iframe {
     color: var(--secondary-color);
   }
 
-  .heading-big-screen{
+  .heading-big-screen {
     color: white;
   }
 
