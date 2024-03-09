@@ -309,4 +309,57 @@ iframe {
     font-size: 30px;
     color: white;
   }
+
+  .left-big-screen {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+
+  .heading-big-screen{
+    color: white;
+  }
+
+  .progress-bar {
+    width: 30%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 20px;
+    position: relative;
+    margin: auto;
+  }
+
+  .progress-fill-30 {
+    width: 30%;
+    background-color: var(--secondary-color);
+    height: 100%;
+    border-radius: 4px;
+  }
+
+  .progress-fill-50 {
+    width: 50%;
+    background-color: var(--secondary-color);
+    height: 100%;
+    border-radius: 4px;
+  }
+
+  .progress-fill-60 {
+    width: 60%;
+    background-color: var(--secondary-color);
+    height: 100%;
+    border-radius: 4px;
+  }
+
+  .progress-fill-70 {
+    width: 70%;
+    background-color: var(--secondary-color);
+    height: 100%;
+    border-radius: 4px;
+  }
+
+  .progress-fill-80 {
+    width: 80%;
+    background-color: var(--secondary-color);
+    height: 100%;
+    border-radius: 4px;
+  }
 }

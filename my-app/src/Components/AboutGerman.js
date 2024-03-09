@@ -43,13 +43,13 @@ export default function AboutGerman() {
         <h1>CV</h1>
         <Row>
           <Col lg={4} xl={4}>
-            <div className="padding-top-section column-cv">
+            <div className="padding-top-section column-cv left-big-screen">
               <img
                 src="icons/skills.png"
                 alt="graphic skills"
                 className="icon"
               ></img>
-              <h2>Skills</h2>
+              <h2 className="heading-big-screen">Skills</h2>
               <div>
                 <div className="padding-left-right-up">
                   <div class="progress-bar">
@@ -89,26 +89,18 @@ export default function AboutGerman() {
                 </div>
               </div>
             </div>
-            <div className="d-none d-lg-block d-xl-block">
-              <h2>Sprachen</h2>
+            <div className="d-none d-lg-block d-xl-block padding-top-section column-cv left-big-screen">
+              <h2 className="heading-big-screen">Sprachen</h2>
               <p>Deutsch: C2</p>
               <p>Englisch: C2</p>
               <p>Französisch: B1</p>
             </div>
-            <div className="d-none d-lg-block d-xl-block">
-              <h2>Interessen</h2>
+            <div className="d-none d-lg-block d-xl-block padding-top-section column-cv left-big-screen">
+              <h2 className="heading-big-screen">Interessen</h2>
               <p>Singen in einer Band</p>
               <p>Laufen & Radfahren</p>
               <p>Science Fiction (Bücher, Filme, Serien)</p>
             </div>
-            <video
-              autoPlay
-              muted
-              loop
-              className="video d-none d-lg-block d-xl-block"
-            >
-              <source src="type2.mp4" type="video/mp4" />
-            </video>
           </Col>
           <Col lg={8} xl={8}>
             <div className="padding-top-section padding-left-right column-cv">
@@ -289,7 +281,7 @@ export default function AboutGerman() {
                 <p className="since">Juli 2020 - Juni 2022</p>
                 <p>
                   Konzeption und Aufbau eines multimedialen Onlinemagazins.
-                  Redaktionsleitung und erstellen von multimedialem Content für
+                  Redaktionsleitung und Erstellen von multimedialem Content für
                   die Website und Social Media.
                 </p>
               </div>
