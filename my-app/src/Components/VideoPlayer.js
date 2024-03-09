@@ -37,6 +37,7 @@ export default function VideoPlayer({ videoName }) {
         muted
         ref={videoRef}
         className={`video ${videoName}`}
+        poster={`${videoName}.png`}
         alt="Video is loading"
         onTimeUpdate={() => {
           if (videoRef.current) {
