@@ -6,10 +6,10 @@ import VideoPlayer from "./VideoPlayer";
 
 export default function ProjectsGerman() {
   return (
-    <Container>
+    <Container className="padding-left-right">
       <Row>
         <h2 className="language-projects">Swift</h2>
-        <Col lg={6} xl={6}>
+        <Col lg={6} xl={6} className="padding-top">
           <h3 className="project-name">ToDo</h3>
           <p className="project-description">
             With this app you can keep track of all your ToDos.
@@ -31,7 +31,7 @@ export default function ProjectsGerman() {
           </p>
           <VideoPlayer videoName="ToDo" />
         </Col>
-        <Col lg={6} xl={6}>
+        <Col lg={6} xl={6} className="padding-top">
           <h3 className="project-name chatty-name">Chatty</h3>
           <p className="project-description">
             With this app you can keep in touch with your friends.
@@ -54,7 +54,7 @@ export default function ProjectsGerman() {
           <VideoPlayer videoName="Chatty1" />
         </Col>
       </Row>
-      <Row>
+      <Row className="padding-top-section">
         <h2 className="language-projects">JavaScript</h2>
         <div>
           <h3 className="project-name">Wine Online Shop</h3>
