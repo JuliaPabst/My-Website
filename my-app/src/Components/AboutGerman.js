@@ -203,10 +203,10 @@ export default function AboutGerman() {
                 <h4 className="institution">FH Wien der WKW</h4>
                 <p className="since">Oktober 2017 - Juli 2021</p>
                 <p>
-                  Journalistische Theorien sowie moralische Grundlagen.
+                  Journalistische Theorien sowie moralische Grundlagen,
                   Erstellung von multimedialen Inhalten
                 </p>
-                <h5>
+                <h5 className="padding-top">
                   Auslandssemester: Tampere University of Applied Sciences
                 </h5>
                 <p>Jänner 2020 - Mai 2020</p>
@@ -233,7 +233,7 @@ export default function AboutGerman() {
                   und der digitalen Bildbearbeitung mit Adobe Photoshop
                 </p>
               </div>
-              <div className="padding-top margin-top-section">
+              <div className="padding-top margin-top-section padding-bottom-section">
                 <h3>
                   <a
                     href="https://www.brg-judenburg.ac.at/"
@@ -252,7 +252,7 @@ export default function AboutGerman() {
                 </p>
               </div>
             </div>
-            <div className="padding-top-section column-cv">
+            <div className="padding-top-section column-cv padding-top">
               <img
                 src="icons/work.png"
                 alt="graphic work"
@@ -272,7 +272,7 @@ export default function AboutGerman() {
                   im Bereich Wirtschafts- und Technologiejournalismus
                 </p>
               </div>
-              <div className="padding-top ">
+              <div className="padding-top margin-top-section">
                 <h3 className="education-link">
                   Co-Founder und stellvertretende Chefredakteurin
                 </h3>
@@ -288,12 +288,12 @@ export default function AboutGerman() {
                 </h4>
                 <p className="since">Juli 2020 - Juni 2022</p>
                 <p>
-                  Konzeption und Aufbau eines multimedialen Onlinemagazins.
+                  Konzeption und Aufbau eines multimedialen Onlinemagazins,
                   Redaktionsleitung und Erstellen von multimedialem Content für
                   die Website und Social Media
                 </p>
               </div>
-              <div className="padding-top ">
+              <div className="padding-top margin-top-section">
                 <h3 className="education-link">Redaktion</h3>
                 <h4>
                   <a
@@ -311,7 +311,7 @@ export default function AboutGerman() {
                   Fernsehbeiträgen
                 </p>
               </div>
-              <div className="padding-top padding-left-right">
+              <div className="padding-top padding-left-right margin-top-section padding-bottom-section">
                 <h3 className="education-link">Praktika</h3>
                 <div>
                   <h4 className="institution">
