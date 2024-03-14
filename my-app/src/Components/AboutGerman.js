@@ -9,7 +9,7 @@ export default function AboutGerman() {
       <section>
         <div className="imageContainer">
           <div className="title">
-            <h1 className="name">Julia Pabst</h1>
+            <h1 className="name">Julia Pabst, BA</h1>
             <h2 className="profession">Web & Mobile Development</h2>
           </div>
           <img
