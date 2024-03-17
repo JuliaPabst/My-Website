@@ -278,7 +278,7 @@ export default function AboutGerman() {
                 </h3>
                 <h4>
                   <a
-                    href="www.amrand.at"
+                    href="https://www.amrand.at"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="institution"
@@ -297,7 +297,7 @@ export default function AboutGerman() {
                 <h3 className="education-link">Redaktion</h3>
                 <h4>
                   <a
-                    href="www.tvsalon.at"
+                    href="https://www.tvsalon.at"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="institution"
